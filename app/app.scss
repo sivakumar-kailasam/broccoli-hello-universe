@@ -1,0 +1,50 @@
+$neon_color: #FFDD1B;
+
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0  10px #fff,
+                 0 0  20px #fff,
+                 0 0  30px #fff,
+                 0 0  40px $neon_color, 
+                 0 0  70px $neon_color, 
+                 0 0  80px $neon_color, 
+                 0 0 100px $neon_color, 
+                 0 0 150px $neon_color;
+  }
+  
+  to {
+    text-shadow: 0 0  5px #fff, 
+                 0 0 10px #fff, 
+                 0 0 15px #fff, 
+                 0 0 20px $neon_color, 
+                 0 0 35px $neon_color, 
+                 0 0 40px $neon_color, 
+                 0 0 50px $neon_color, 
+                 0 0 75px $neon_color;
+  }
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+    color: $neon_color;
+    background-color: #000;
+    user-select: none;
+	  cursor: pointer;
+	  display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    &:hover {
+      animation: neon 0.75s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+}
+

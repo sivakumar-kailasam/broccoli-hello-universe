@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "broccoli": "^1.1.1",
+    "broccoli-asset-rev": "^2.5.0",
+    "broccoli-babel-transpiler": "^5.6.2",
+    "broccoli-clean-css": "^2.0.1",
+    "broccoli-funnel": "^1.2.0",
+    "broccoli-htmlmin": "^2.1.0",
+    "broccoli-merge-trees": "^2.0.0",
+    "broccoli-rollup": "^1.2.0",
+    "broccoli-sass": "^0.7.0"
+  },
+  "name": "broccoli-hello-universe",
+  "version": "1.0.0",
+  "description": "A sample repo to demostrate broccoli",
+  "main": "index.js",
+  "author": "Sivakumar Kailasam <sivakumar.ur.friend@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/sivakumar-kailasam/broccoli-hello-universe.git"
+}
